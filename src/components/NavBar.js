@@ -3,8 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export const NavBar = () => {
   return (
-    <>
-      {/* <NavLink> */}
+    <nav>
       <ul>
         <li>
           <NavLink to="/" className="index-link">
@@ -20,8 +19,7 @@ export const NavBar = () => {
           <NavLink to="/notfound">About</NavLink>
         </li>
       </ul>
-      {/* </NavLink> */}
-    </>
+    </nav>
   );
 };
 
