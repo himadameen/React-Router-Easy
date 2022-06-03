@@ -15,9 +15,6 @@ export const NavBar = () => {
             Home
           </Link>
         </li>
-        <li>
-          <Link to="/notfound">About</Link>
-        </li>
       </ul>
     </>
   );
